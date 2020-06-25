@@ -22,8 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: yarn global add @tommywalkie/cli
+    - name: Install excalidraw-cli
+      run: yarn global add @tommywalkie/excalidraw-cli
     - name: Try a sample command
       run: excalidraw-cli --help
 
