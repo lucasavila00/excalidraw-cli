@@ -23,7 +23,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install excalidraw-cli
-      run: yarn global add @tommywalkie/excalidraw-cli
+      run: sudo yarn global add @tommywalkie/excalidraw-cli
     - name: Try a sample command
       run: excalidraw-cli --help
 
