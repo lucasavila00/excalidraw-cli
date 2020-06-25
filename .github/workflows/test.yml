@@ -2,9 +2,9 @@ name: build
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, linux-ci-cd ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, linux-ci-cd ]
 
 jobs:
   build:
